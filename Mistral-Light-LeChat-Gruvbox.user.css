@@ -145,14 +145,16 @@
 /*Moddel Picker namee*/
 button span p {
     color: #B8BB26 !important;
+	
 }
 	
+
 	
 	
 	
-	/*User query on the answer page */
+	/*User query on the response page */
 	p.prose.w-full.max-w-none.select-text.overflow-x-auto.whitespace-break-spaces.text-wrap.text-accent-foreground.border.border-transparent.text-xl{
-		color : #B8BB26 !important ; 
+		color : #79740e !important ; 
 	}
 
 
@@ -186,7 +188,7 @@ button span p {
 
 	code {
 		color : #FB4934 !important ; 
-	background: #f2e5bc !important ; 
+	background: #fbf1c7 !important ; 
 		font-weight: 500 !important ; 
 		border-radius: 26px !important ; 
 		font-size: 1rem !important ; 
@@ -194,15 +196,17 @@ button span p {
 
 
 
+	
+	/*These two coressponnd to the code block background colors*/
 	pre { 
 	
-	background-color : #f9f5d7 !important ; 
+	background-color : #fbf1c7 !important ; 
 	}
 
 
 /*Code color background color */
 	div.rounded-md{
-		background-color : #f2e5bc !important ; 
+		background-color : #fbf1c7 !important ; 
 	}
 
 
@@ -237,10 +241,10 @@ color: #98971a !important;
 	
 	
 	/*NUmbers in the code block*/
-/* Select all span elements with the class "token" and a style attribute that sets the color to rgb(181, 206, 168) */
+
 span.token[style*='color: rgb(181, 206, 168)'] {
   /* Set the background color to a light yellow */
-color: #af3a03 !important;
+color: #427b58 !important;
 }
 
 	
@@ -248,10 +252,9 @@ color: #af3a03 !important;
 	
 	
 	/*Strings in code block */
-/* Select all span elements with the class "token" and a style attribute that sets the color to rgb(206, 145, 120) */
 span.token[style*='color: rgb(206, 145, 120)'] {
   /* Set the background color to a light orange */
-color: #E092BE !important;
+color: #b16286 !important;
 }
 	
 	

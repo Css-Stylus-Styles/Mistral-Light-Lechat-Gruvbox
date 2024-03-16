@@ -142,15 +142,24 @@
 	
 	}
 	
+	/*Model Picker Button background*/
+	[class="h-10 items-center justify-between rounded-md border-input bg-background px-3 py-2 ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 w-full sm:h-8 hidden border-0 text-xs font-light sm:flex sm:w-[108px]"] {
+background: #f2e5bc !important ; 
+}
+
+	
+	
 /*Moddel Picker namee*/
 button span p {
-    color: #B8BB26 !important;
+    color: #427b58 !important;
 	
 }
 	
 
+
 	
 	
+
 	
 	/*User query on the response page */
 	p.prose.w-full.max-w-none.select-text.overflow-x-auto.whitespace-break-spaces.text-wrap.text-accent-foreground.border.border-transparent.text-xl{
@@ -308,6 +317,12 @@ max-width: 900px !important;
 	
 	/*Backgrounds of The whole thing*/
 	
+		/*Top DIv -> when fully scroled uup */
+div.sticky.top-0.z-10.flex.h-12.w-full.flex-row.items-center.justify-between.bg-background.p-2.transition-shadow{
+	background-color: #fbf1c7  !important ; 
+	}
+	
+	
 	/*Top bar div */
 	div.sticky.top-0.z-10.flex.h-12.w-full.flex-row.items-center.justify-between.bg-background.p-2.transition-shadow.sm\:h-16.sm\:min-h-16.shadow-md {
   background-color: #f9f5d7; /* change the color to your desired value */
@@ -328,6 +343,24 @@ div.relative.h-full.w-60.border-r.bg-background.py-4.shadow-md.transition-all.le
 	color : #79740e !important ; 
 	}
 
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	/*All Icons*/
 	
@@ -336,6 +369,24 @@ div.relative.h-full.w-60.border-r.bg-background.py-4.shadow-md.transition-all.le
 		stroke-width: 2px !important ; 
 	
 	}
+	
+	
+	
+	
+	
+/*Hovers */
+	
+	/*Name and workspace tab*/
+	.hover\:bg-accent:hover {
+    background-color:#ffd29c !important ;
+}
+	
+	
+	/*Model Picker sub menu button background color*/
+		div.relative.flex.w-full.cursor-default.select-none:hover{
+	background: #ffd29c !important ;
+	}
+	
 	
 	
 	

@@ -152,12 +152,12 @@ background: #f2e5bc !important ;
 /*Moddel Picker namee*/
 button span p {
     color: #427b58 !important;
+	font-size: 13px !important ; 
 	
 }
 	
 
 
-	
 	
 
 	
@@ -173,8 +173,11 @@ button span p {
 		color :#1d1b1a !important ; 
 	}
 
-
-
+/*Model response  warning*/
+	p.self-center.text-sm.font-extralight.italic.text-muted-foreground{
+		color : #d5c4a1 !important ; 
+		
+	}
 	
 
 /*Palcehodler text -> Ask anything */
@@ -187,9 +190,16 @@ button span p {
 
 /*Palcehodler text -> Ask anything */
 	textarea::placeholder{
-		color : #689D6A !important ;  
+		color : #669156 !important ;  
+		font-size:  1rem !important ; 
 	}
 
+	/*Text you enter here */
+	textarea.flex{
+  color: #1d1b1a !important;
+}
+
+	
 	
 	code::before , code::after{
 		color : #8EC07C !important ; 
@@ -291,8 +301,27 @@ max-width: 900px !important;
 	
 	li { 
 	
-	color : #83A598 !important ; 
+	color : #79740e !important ; 
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -300,15 +329,23 @@ max-width: 900px !important;
 	
 	/*Input fiels background color */
 	
-	
-	form.border.border-border.bg-background.p-2.shadow-md.sticky.bottom-4.mt-4.w-full{
-  background: #12110F !important;
+
+.bg-background {
+    background-color: #fbf1c7 !important ;
 }
 
 	
-	textarea{
-		background: #12110F !important ; 
-	}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -349,6 +386,20 @@ div.relative.h-full.w-60.border-r.bg-background.py-4.shadow-md.transition-all.le
 	
 	
 	
+	/*Side bar styles*/
+	/*Side bar styles*/
+	
+	input[placeholder="Search..."] {
+  background-color: #f2e5bc !important;
+		
+		
+}
+
+/*Sidebaer input placeholder*/	
+	input::placeholder{
+		color : #1d1b1a !important ; 
+	}
+	
 	
 	
 	
@@ -372,6 +423,13 @@ div.relative.h-full.w-60.border-r.bg-background.py-4.shadow-md.transition-all.le
 	
 	
 	
+	.fill-muted-foreground {
+  fill: #fb4934 !important; 
+		stroke-width: 4px !important ; /* Change this to the color you want */
+}
+
+	
+	
 	
 	
 /*Hovers */
@@ -388,8 +446,8 @@ div.relative.h-full.w-60.border-r.bg-background.py-4.shadow-md.transition-all.le
 	}
 	
 	
-	
-	
+
+
 	
 	
 	

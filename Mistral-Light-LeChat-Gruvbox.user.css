@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           chat.mistral.ai - Mar 2024
 @namespace      github.com/bilalazh/Misrallecaht
-@version        1.0.1
+@version        1.0.2
 @description    Sample one 
 @author         heybilalazhar@gmail.com
 ==/UserStyle== */
@@ -463,7 +463,7 @@
 	p{
 		color :#504945 !important ; 
     font-family: "Literata Variable" !important;
-	font-size: 1rem  !important  ; 
+	font-size: 0.9rem  !important  ; 
 	}
 
 
@@ -473,6 +473,12 @@ li{
 	font-size: 0.9rem  !important  ; 
 }	
 
+	li::marker {
+		color : #fb4934 !important ; 
+		font-weight: 800 !important ; 
+		font-family: "Bricolage Grotesque" !important ; 
+		
+	}
 
 	/*Bold heading and Bold in general */
 
@@ -516,36 +522,134 @@ strong {
 	}
 
 	code {
-		color : #FB4934 !important ; 
+		color : #282828 !important ; 
 		font-weight: 500 !important ; 
 		border-radius: 26px !important ; 
-		font-size: 1rem !important ; 
+		font-size: 0.78rem !important ; 
+    font-family: "JetBrains Mono" !important;
 	}
 
+	
 
 
 	
 	/*These two coressponnd to the code block background colors*/
 	pre { 
 	
-	background-color : #ffd29c !important ; 
+	background-color : #fbf1c7 !important ; 
+		color: black !important ; 
+			 
 	}
 
 
 /*Code color background color */
 	div.rounded-md{
-		background-color : #fdf6e3 !important ; 
+		background-color : #f9f5d7 !important ; 
 	}
 
 
+	/*Inline Code colors*/
+	p code,li code {
+		color : #5c7b42 !important ; 
+		font-weight: 600 !important  ; 
+		font-family: "Literata Variable" !important ;
+		background : #f9f5d7 !important ; 
+	}
+	
+	/*INline Code colors -> Comment this line if regreat later */
+	p code , li code {
+		border : #bdae93 1px solid !important ; 
+		padding : 0rem 1rem !important ; 
+	}
+	
+	/*Table Css Styles*/
 
 
 
+	tr {
+		font-family: "Fira Mono" !important ; 
+		font-weight: 600 !important ; 
+		color: #282828 !important ; 
+		
+	}
+	
+	th{
+			font-family: "Jetbrains Mono" !important ; 
+		font-weight: 600 !important ; 
+		color: #cc241d !important ; 
+		font-size: 0.8rem !important ; 
+		
+	}
+	
+	
+	
+	
+	
+	/*LINKS */
+	/*link color */
+	a {
+		color: #fb4934 !important;
+		font-family: 'Bricolage Grotesque' !important;
+		text-decoration: underline !important ; 
+		
+		font-weight: 600 !important ; 
+		
+	}
+
+	/*link hover */
+	a:hover {
+		color: #5c7b42 !important;
+		transition: color 0.5s ease-in-out !important;
+		font-family: 'Bricolage Grotesque' !important;
+		text-decoration: none !important;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 /*Code colros */
 
+	
+	
+	
 	span.token{
-	color : #79740e !important ; 
+	color : #458588 !important ; 
 	}
 	
 	
@@ -554,7 +658,7 @@ strong {
 	
 	span.token[style*='color: rgb(86, 156, 214)'] {
   /* Set the background color to a lighter shade of blue */
-  color: #127c90 !important;
+  color: #5c7b42 !important;
 }
 	
 	
@@ -582,7 +686,7 @@ color: #427b58 !important;
 	/*Strings in code block */
 span.token[style*='color: rgb(206, 145, 120)'] {
   /* Set the background color to a light orange */
-color: #b16286 !important;
+color: #fb4934 !important;
 }
 	
 	
@@ -785,7 +889,6 @@ div.relative.h-full.w-60.border-r.bg-background.py-4.shadow-md.transition-all.le
 
 
 
-	
 	
 	
 	

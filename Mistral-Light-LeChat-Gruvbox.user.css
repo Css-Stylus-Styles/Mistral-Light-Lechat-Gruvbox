@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           chat.mistral.ai - Mar 2024
 @namespace      github.com/bilalazh/Misrallecaht
-@version        1.0.2
+@version        1.0.3
 @description    Sample one 
 @author         heybilalazhar@gmail.com
 ==/UserStyle== */
@@ -494,8 +494,10 @@ strong {
 
 
 /*Palcehodler text -> Ask anything */
+	/*Text inside the input placeholder*/
 		textarea{
-		color : #8EC07C !important ;  
+			font-family: "Literata Variable" !important ; 
+			font-size: 0.8rem !important ; 
 	}
 
 	
@@ -697,13 +699,7 @@ color: #fb4934 !important;
 	
 	
 	
-	/*CHeck the width of the response container */
-	
-	div.flex.h-fit.w-full.max-w-screen-md.flex-1.flex-col.items-stretch.justify-start.gap-5.px-4{
-		
-		width: 100% !important;
-max-width: 900px !important;
-	}
+
 	
 	
 	
@@ -758,31 +754,6 @@ max-width: 900px !important;
 	
 	/*Backgrounds of The whole thing*/
 	
-		/*Top DIv -> when fully scroled uup */
-div.sticky.top-0.z-10.flex.h-12.w-full.flex-row.items-center.justify-between.bg-background.p-2.transition-shadow{
-	background-color: #fbf1c7  !important ; 
-	}
-	
-	
-	/*Top bar div */
-	div.sticky.top-0.z-10.flex.h-12.w-full.flex-row.items-center.justify-between.bg-background.p-2.transition-shadow.sm\:h-16.sm\:min-h-16.shadow-md {
-  background-color: #f9f5d7; /* change the color to your desired value */
-}
-
-
-
-/*Main Div background */
-div.w-full.flex-col.items-center.justify-center.overflow-y-auto {
-  background-color: #f9f5d7 !important; /* change the color to your desired value */
-}
-
-
-	/*Yellow side bar */
-div.relative.h-full.w-60.border-r.bg-background.py-4.shadow-md.transition-all.left-0{
-	
-	background-color : #fbf1c7 !important ; 
-	color : #79740e !important ; 
-	}
 
 	
 
@@ -794,7 +765,9 @@ div.relative.h-full.w-60.border-r.bg-background.py-4.shadow-md.transition-all.le
 	/*Side bar styles*/
 	
 	input[placeholder="Search..."] {
-  background-color: #f2e5bc !important;
+  background-color: #f9f5d7 !important;
+		color : black !important ; 
+		font-family: "Jetbrains Mono" !important ; 
 		
 		
 }
@@ -802,18 +775,26 @@ div.relative.h-full.w-60.border-r.bg-background.py-4.shadow-md.transition-all.le
 /*Sidebaer input placeholder*/	
 	input::placeholder{
 		color : #1d1b1a !important ; 
+		font-family: "Jetbrains Mono" !important ; 
+		font-size: 0.7rem !important ; 
 	}
 	
 	
 	
+	/*Side bar background */
+	.flex.min-h-0.w-full.flex-1.flex-col{
+		background: #f2e5bc !important ; 
+		
+}
 	
+
+	/*Side bar Link backgroun d*/
 	
-	
-	
-	
-	
-	
-	
+a.block.min-h-8.w-full.flex-1.flex-row.items-center[aria-label="Open chat"] {
+  background-color: #fbf1c7 !important; 
+}
+
+
 	
 	
 

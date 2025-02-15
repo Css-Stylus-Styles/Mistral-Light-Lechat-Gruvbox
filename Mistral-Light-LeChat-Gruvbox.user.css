@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           chat.mistral.ai - Mar 2024
 @namespace      github.com/bilalazh/Misrallecaht
-@version        1.0.4
+@version        1.0.6
 @description    Sample one 
 @author         heybilalazhar@gmail.com
 ==/UserStyle== */
@@ -835,6 +835,12 @@ strong {
 	
 	
 	
+	/*Background */
+	
+	/*Main interface backgorund Chat background color  */
+	.flex.h-full.w-full.flex-col.items-center.justify-center.overflow-hidden {
+    background-color: #fbf1c7 !important;
+}
 	
 	
 	
@@ -847,12 +853,7 @@ strong {
 	
 	
 	
-	
-	
-	
-	
-	
-	
+
 	
 	
 	
@@ -1004,9 +1005,8 @@ color: #fb4934 !important;
 	
 	
 	/*Side bar background */
-	.flex.min-h-0.w-full.flex-1.flex-col{
-		background: #f2e5bc !important ; 
-		
+	div[data-sidebar="content"] {
+    background-color: #eaedc8 !important;
 }
 	
 

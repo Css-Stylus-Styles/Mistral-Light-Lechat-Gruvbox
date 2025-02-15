@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           chat.mistral.ai - Mar 2024
 @namespace      github.com/bilalazh/Misrallecaht
-@version        1.0.6
+@version        1.0.7
 @description    Sample one 
 @author         heybilalazhar@gmail.com
 ==/UserStyle== */
@@ -765,9 +765,10 @@ strong {
 	}
 
 
-/*Code color background color */
-	div.rounded-md{
-		background-color : #f9f5d7 !important ; 
+/*Code color background color , */
+/* Side bar Days and personal acconunt indication buttons background color  */
+	div.rounded-md , button[data-sidebar="menu-button"] {
+		background-color : #eaedc8 !important ; 
 	}
 
 
